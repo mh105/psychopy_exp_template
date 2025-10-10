@@ -1,0 +1,11 @@
+
+# Core
+pandas>=2.1
+numpy>=1.26
+
+# Optional (install locally when needed)
+# psychopy==2024.2.*
+# pylsl>=1.16.2
+# psychtoolbox; platform_system == "Windows"
+# pyserial
+

@@ -1,0 +1,14 @@
+
+name: psychopy-tmpl
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - pandas>=2.1
+  - numpy>=1.26
+  # Install these after confirming GPU/OS support in your lab environment:
+  # - psychopy
+  # - pylsl
+  # - pip
+  # - pip:
+  #     - psychtoolbox

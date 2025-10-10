@@ -1,0 +1,48 @@
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.build/
+dist/
+.venv/
+venv/
+.env
+.env.*
+pip-wheel-metadata/
+
+# ---- OS cruft ----
+.DS_Store
+Thumbs.db
+
+# ---- Editors ----
+.vscode/
+.idea/
+*.swp
+
+# ---- PsychoPy / experiment outputs ----
+data/
+logs/
+*.log
+*.psydat
+*.xlsx
+*.tsv
+*.csv
+*.jsonl
+*.png
+*.jpg
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Conda ----
+*.lock
+conda-env.yaml.lock
+
+# ---- Misc ----
+*.bak
+*.tmp
